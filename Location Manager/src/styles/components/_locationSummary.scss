@@ -1,0 +1,50 @@
+.location-summary-show {
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    p {
+        margin-bottom: 0;
+    }
+    label {
+        color: #0777ef;
+    }
+    .active-status {
+        color: green;
+        display: flex;
+        justify-content: space-between;
+        align-items: center
+    }
+    .close-status {
+        color:red;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .location-summary-title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            margin-bottom: 0;
+            margin-left: 1rem;
+        }
+        margin-bottom: 0.6rem;
+    }
+    .loc-sum-item {
+        width: 27.4rem;
+        margin-bottom: 0.5rem;
+        // display: flex;
+        // p {
+        //     margin-left: 1rem;
+        // }
+    }
+    .location-summary-title-fdiv {
+        display: flex;
+    }
+    .whole-sum {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,34 @@
+.true-bandwidth {
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    display: flex;
+        flex-wrap: wrap;
+    p {
+        margin-bottom: 0;
+    }
+    label {
+        color: #0777ef;
+    }
+    .true-band-item {
+        margin-bottom: 0.5rem;
+        width: 27.4rem;
+    }
+    .show-remarks {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.down-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up-arrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
